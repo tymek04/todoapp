@@ -5,10 +5,20 @@
     <title>TodoApp</title>
   </head>
   <body>
-    <div class="wrapper">
-      <div id="left_part"></div>
-      <div id="middle_part"></div>
-      <div id="right_part"></div>
+    <div class="wrapper" style="display: flex">
+      <div id="left_part" style="flex-grow: 2">
+        <div id="browse" style="width: 100%">
+          <input type="text" id="input_for_searching" style="width: calc(100% - 50px)">
+          &#8981;
+        </div>
+        <div id="list_of_lists"></div>
+      </div>
+      <div id="middle_part" style="flex-grow: 5">
+        <p>a</p>
+      </div>
+      <div id="right_part" style="flex-grow: 3">
+        <p>a</p>
+      </div>
     </div>
   <noscript>
     You have to enable Javascript in order to run this app
