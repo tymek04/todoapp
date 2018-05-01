@@ -1,8 +1,5 @@
-/**{
-  margin: 0;
-}*/
-
-.svg-inline--fa{
+.svg-inline--fa
+{
   margin-top: 20px;
 }
 
@@ -15,15 +12,29 @@
 {
   flex-grow: 2;
   display: grid;
-  grid-template-columns: 20px auto 20px;
+  grid-template-columns: 30px auto 30px;
+  background-color: rgb(162, 218, 235);
 }
 
 #middle_part
 {
   flex-grow: 5;
+  background-color: rgb(114, 232, 154);
 }
 
 #right_part
 {
   flex-grow: 3;
+}
+
+#title
+{
+  background-color: rgb(242, 107, 117);
+}
+
+#list_of_tasks
+{
+  display: grid;
+  grid-template-columns: 30px auto;
+  background-color: rgb(246, 174, 34);
 }
