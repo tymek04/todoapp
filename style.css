@@ -1,3 +1,11 @@
+/**{
+  margin: 0;
+}*/
+
+.svg-inline--fa{
+  margin-top: 20px;
+}
+
 .wrapper
 {
   display: flex;
