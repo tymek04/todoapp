@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
     <title>TodoApp</title>
   </head>
   <body>
     <div class="wrapper">
-      <div id="left_part"></div>
-      <div id="middle_part"></div>
-      <div id="right_part"></div>
+      <div id="left_part">
+        <img id="your_photo" >
+        <h3>Your name</h3>
+        <i class="fas fa-search"></i>
+
+        <i class="fas fa-sun"></i>
+        <h3 class="name_of_list">My day</h3>
+        <h3 class="num_of_tasks">7</h3>
+
+        <i class="fas fa-home"></i>
+        <h3 class="name_of_list">To-do</h3>
+        <h3 class="num_of_tasks">4</h3>
+
+        <i class="fas fa-list-ul"></i>
+        <h3 class="name_of_list">Animals</h3>
+        <h3 class="num_of_tasks">3</h3>
+
+        <i class="fas fa-plus"></i>
+        <h3>New list</h3>
+      </div>
+      <div id="middle_part">
+        <div id="title">
+          <h1>My day</h1>
+          <h4>Wednesday 29 March</h4>
+        </div>
+        <div id="list_of_tasks">
+          <input type="checkbox">
+          <span class = "single_task">
+            <h3 class = "task_name">Feed the dog</h3>
+            <p class = "description">Animals</p>
+          </span>
+          <input type="checkbox">
+          <span class = "single_task">
+            <h3 class = "task_name">Make To-do app</h3>
+            <p class = "description">To-do</p>
+          </span>
+          <input type="checkbox">
+          <span class = "single_task">
+            <h3 class = "task_name">Check the weather</h3>
+            <p class = "description">My day</p>
+          </span>
+          <i class="fas fa-plus-circle"></i>
+          <h3>Add a to-do</h3>
+        </div>
+      </div>
+      <div id="right_part">
+        <p>a</p>
+      </div>
     </div>
   <noscript>
     You have to enable Javascript in order to run this app
