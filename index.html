@@ -9,24 +9,34 @@
   <body>
     <div class="wrapper">
       <div id="left_part">
-        <img id="your_photo" >
-        <h3>Your name</h3>
-        <i class="fas fa-search"></i>
+        <span class="elements_from_left_part">
+          <img id="your_photo" >
+          <h3>Your name</h3>
+          <i class="fas fa-search"></i>
+        </span>
 
-        <i class="fas fa-sun"></i>
-        <h3 class="name_of_list">My day</h3>
-        <h3 class="num_of_tasks">7</h3>
+        <span class="elements_from_left_part">
+          <i class="fas fa-sun"></i>
+          <h3 class="name_of_list">My day</h3>
+          <h3 class="num_of_tasks">7</h3>
+        </span>
 
-        <i class="fas fa-home"></i>
-        <h3 class="name_of_list">To-do</h3>
-        <h3 class="num_of_tasks">4</h3>
+        <span class="elements_from_left_part">
+          <i class="fas fa-home"></i>
+          <h3 class="name_of_list">To-do</h3>
+          <h3 class="num_of_tasks">4</h3>
+        </span>
 
-        <i class="fas fa-list-ul"></i>
-        <h3 class="name_of_list">Animals</h3>
-        <h3 class="num_of_tasks">3</h3>
+        <span class="elements_from_left_part">
+          <i class="fas fa-list-ul"></i>
+          <h3 class="name_of_list">Animals</h3>
+          <h3 class="num_of_tasks">3</h3>
+        </span>
 
-        <i class="fas fa-plus"></i>
-        <h3>New list</h3>
+        <span class="elements_from_middle_part">
+          <i class="fas fa-plus"></i>
+          <h3>New list</h3>
+        </span>
       </div>
       <div id="middle_part">
         <div id="title">
@@ -34,23 +44,34 @@
           <h4>Wednesday 29 March</h4>
         </div>
         <div id="list_of_tasks">
-          <input type="checkbox">
-          <span class = "single_task">
-            <h3 class = "task_name">Feed the dog</h3>
-            <p class = "description">Animals</p>
+          <span class = "elements_from_middle_part">
+            <input type="checkbox">
+            <span class = "single_task">
+              <h3 class = "task_name">Feed the dog</h3>
+              <p class = "description">Animals</p>
+            </span>
           </span>
-          <input type="checkbox">
-          <span class = "single_task">
-            <h3 class = "task_name">Make To-do app</h3>
-            <p class = "description">To-do</p>
+
+          <span class = "elements_from_middle_part">
+            <input type="checkbox">
+            <span class = "single_task">
+              <h3 class = "task_name">Make To-do app</h3>
+              <p class = "description">To-do</p>
+            </span>
           </span>
-          <input type="checkbox">
-          <span class = "single_task">
-            <h3 class = "task_name">Check the weather</h3>
-            <p class = "description">My day</p>
+
+          <span class = "elements_from_middle_part">
+            <input type="checkbox">
+            <span class = "single_task">
+              <h3 class = "task_name">Check the weather</h3>
+              <p class = "description">My day</p>
+            </span>
           </span>
-          <i class="fas fa-plus-circle"></i>
-          <h3>Add a to-do</h3>
+
+          <span class = "elements_from_middle_part">
+            <i class="fas fa-plus-circle"></i>
+            <h3>Add a to-do</h3>
+          </span>
         </div>
       </div>
       <div id="right_part">
@@ -78,5 +99,7 @@
   <noscript>
     You have to enable Javascript in order to run this app
   </noscript>
+  <script src="scripts/main.js" charset="uft-8"></script>
+  <script src="scripts/schema.js" charset="uft-8"></script>
   </body>
 </html>
