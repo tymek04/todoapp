@@ -1,6 +1,6 @@
 .svg-inline--fa
 {
-  margin:auto 0;
+  margin:auto;
 }
 
 .wrapper
@@ -42,11 +42,15 @@
   background-color:rgb(169, 110, 229);
 }
 
+.options
+{
+  margin: 10px 10px 0 10px;
+}
+
 .information
 {
   display:grid;
   grid-template-columns:30px auto;
-  margin: 10px 10px 0 10px;
   background-color:rgb(162, 255, 112);
 }
 
