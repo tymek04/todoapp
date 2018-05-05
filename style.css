@@ -1,6 +1,6 @@
 .svg-inline--fa
 {
-  margin-top: 20px;
+  margin:auto 0;
 }
 
 .wrapper
@@ -37,4 +37,24 @@
   display: grid;
   grid-template-columns: 30px auto;
   background-color: rgb(246, 174, 34);
+}
+
+#top_part
+{
+  display:grid;
+  grid-template-columns:40px auto;
+  background-color:rgb(169, 110, 229);
+}
+
+.information
+{
+  display:grid;
+  grid-template-columns:30px auto;
+  margin: 10px 10px 0 10px;
+  background-color:rgb(162, 255, 112);
+}
+
+#right_part
+{
+  background-color:rgb(255, 238, 112);
 }
