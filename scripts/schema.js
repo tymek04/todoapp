@@ -16,6 +16,18 @@ class ToDoList
       alert("Error");
     }
   }
+  numOfNotFinishedTasks()
+  {
+    let number = 0
+    this.tasks_list.forEach(function(element)
+    {
+      if(element.done === false)
+      {
+        number += 1
+      }
+    })
+    return number
+  }
 }
 
 class Task
