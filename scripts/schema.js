@@ -21,18 +21,18 @@ class Task
     this.date = new Date()
   }
 
-  change_done()
+  changeDone()
   {
     this.done = !this.done
   }
 
-  set_name(new_name)
+  setName(newName)
   {
-    this.name = new_name
+    this.name = newName
   }
 
-  set_des(new_des)
+  setDesc(newDesc)
   {
-    this.description = new_des
+     this.description = newDesc
   }
 }
