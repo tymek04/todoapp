@@ -7,7 +7,14 @@ class ToDoList
   }
   add(task)
   {
-    this.tasks_list.push(task)
+    if(task instanceof Task)
+    {
+      this.tasks_list.push(task)
+    }
+    else
+    {
+      alert("Error");
+    }
   }
 }
 
